@@ -1,0 +1,14 @@
+# Autoload commands
+PATH_add bin
+
+# Atlas
+export ATLAS_TOKEN="<your atlas token>"
+
+# DNSimple
+export DNSIMPLE_TOKEN="<your dnsimple token>"
+export DNSIMPLE_EMAIL="<your dnsimple email>"
+
+# Terraform
+export TF_VAR_atlas_token=$ATLAS_TOKEN
+export TF_VAR_dnsimple_token=$DNSIMPLE_TOKEN
+export TF_VAR_dnsimple_email=$DNSIMPLE_EMAIL
