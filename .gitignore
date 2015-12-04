@@ -1,0 +1,7 @@
+# Direnv
+.envrc
+
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
