@@ -22,10 +22,22 @@ $ cp .envrc.example .envrc
 $ vi .envrc
 ```
 
+Remote configuration:
+
+```sh
+$ terraform remote config -backend-config="name=tomohiro/tomohiro.me"
+```
+
 Check the plan:
 
 ```sh
 $ terraform plan
+```
+
+Send the local environment variables to the Atlas environment:
+
+```sh
+$ terraform push -name="tomohiro/tomohiro.me"
 ```
 
 
