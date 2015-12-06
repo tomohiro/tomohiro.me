@@ -5,3 +5,7 @@
 .terraform
 *.tfstate
 *.tfstate.backup
+
+# Bundler
+.bundle
+vendor

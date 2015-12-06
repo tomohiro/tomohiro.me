@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-sdk (2.2.4)
+      aws-sdk-resources (= 2.2.4)
+    aws-sdk-core (2.2.4)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.2.4)
+      aws-sdk-core (= 2.2.4)
+    dnsimple (2.0.0.alpha5)
+      httparty
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    jmespath (1.1.3)
+    json (1.8.3)
+    multi_xml (0.5.5)
+    oj (2.14.0)
+    ox (2.2.2)
+    terraforming (0.6.1)
+      aws-sdk (~> 2.2.0)
+      oj
+      ox
+      thor
+    terraforming-dnsimple (0.1.1)
+      dnsimple (= 2.0.0.alpha5)
+      terraforming
+      thor
+    thor (0.19.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  terraforming-dnsimple
+
+BUNDLED WITH
+   1.10.6
