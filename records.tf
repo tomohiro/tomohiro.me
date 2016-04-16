@@ -6,9 +6,9 @@ resource "dnsimple_record" "naked" {
     ttl    = 600
 }
 
-resource "dnsimple_record" "kloudsecwvrgwwvdrp" {
+resource "dnsimple_record" "www" {
     domain = "tomohiro.me"
-    name   = "kloudsecwvrgwwvdrp"
+    name   = "www"
     value  = "103.203.90.2"
     type   = "A"
     ttl    = 600
