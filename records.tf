@@ -1,3 +1,7 @@
+resource "aws_route53_zone" "main" {
+    name = "tomohiro.me"
+}
+
 resource "dnsimple_record" "naked" {
     domain = "tomohiro.me"
     name   = "@"
