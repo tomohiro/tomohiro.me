@@ -1,13 +1,13 @@
 tomohiro.me
 ================================================================================
 
-My domain's records configuration with DNSimple by Terraform
+My domain's records configuration with AWS Route53 by Terraform
 
 
 Requirements
 --------------------------------------------------------------------------------
 
-- DNSimple token
+- AWS access token
 - Atlas token
 - Terraform
 
@@ -44,6 +44,6 @@ $ terraform push -name="tomohiro/tomohiro.me"
 LICENSE
 --------------------------------------------------------------------------------
 
-&copy; 2015 Tomohiro TAIRA.
+&copy; 2015 - 2016 Tomohiro TAIRA.
 
 This project is licensed under the MIT license. See [LICENSE](LICENSE) for details.
