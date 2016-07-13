@@ -1,3 +1,5 @@
+# https://www.terraform.io/docs/providers/aws/r/cloudfront_distribution.html
+
 resource "aws_cloudfront_distribution" "web" {
   enabled = true
   aliases = ["tomohiro.me", "www.tomohiro.me"]
