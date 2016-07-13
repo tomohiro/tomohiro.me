@@ -1,4 +1,4 @@
-resource "aws_cloudfront_distribution" "main_distribution" {
+resource "aws_cloudfront_distribution" "web" {
   enabled = true
   aliases = ["tomohiro.me", "www.tomohiro.me"]
 
