@@ -40,7 +40,7 @@ resource "aws_route53_record" "keybase" {
 
 resource "aws_route53_record" "znc" {
   zone_id = "${aws_route53_zone.main.zone_id}"
-  name    = "znc.tomohiro.me"
+  name    = "znc"
   type    = "A"
   ttl     = "300"
   records = ["128.199.91.91"]
