@@ -16,6 +16,10 @@ resource "aws_cloudfront_distribution" "web" {
     }
   }
 
+  logging_config {
+    bucket = "tomohiro-logs.s3.amazonaws.com"
+  }
+
   default_cache_behavior {
     allowed_methods  = ["GET", "HEAD", "OPTIONS"]
     cached_methods   = ["GET", "HEAD"]
