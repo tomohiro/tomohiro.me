@@ -1,0 +1,9 @@
+
+{
+  "name": "tomohiro.me",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "",
+  "environment": {}
+}
