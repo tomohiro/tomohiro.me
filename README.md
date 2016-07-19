@@ -3,6 +3,9 @@ tomohiro.me
 
 My domain configuration with AWS by Terraform
 
+[![Dependency Status](https://img.shields.io/gemnasium/Tomohiro/tomohiro.me.svg?style=flat-square)](https://gemnasium.com/Tomohiro/tomohiro.me)
+[![Build Status](https://img.shields.io/circleci/project/Tomohiro/tomohiro.me.svg?style=flat-square)](https://circleci.com/gh/Tomohiro/tomohiro.me)
+
 
 Requirements
 --------------------------------------------------------------------------------
