@@ -9,3 +9,6 @@
 # Bundler
 .bundle
 vendor
+
+# awspec
+secrets.yml
