@@ -1,7 +1,7 @@
 tomohiro.me
 ================================================================================
 
-My domain's records configuration with AWS Route53 by Terraform
+My domain configuration with AWS by Terraform
 
 
 Requirements
