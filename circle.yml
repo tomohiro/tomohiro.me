@@ -1,5 +1,4 @@
 ---
 machine:
-  version: trusty-621-53170ea
   ruby:
     version: ruby-2.3.1
