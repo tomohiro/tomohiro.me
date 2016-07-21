@@ -19,3 +19,10 @@ provider "aws" {
   secret_key = "${var.aws_secret_access_key}"
   region     = "${var.aws_region}"
 }
+
+resource "terraform_remote_state" "default" {
+  backend = "atlas"
+  config  = {
+    name = "tomohiro/tomohiro.me"
+  }
+}
