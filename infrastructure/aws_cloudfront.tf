@@ -18,6 +18,7 @@ resource "aws_cloudfront_distribution" "web" {
 
   logging_config {
     bucket = "tomohiro-logs.s3.amazonaws.com"
+    prefix = "AWSLogs/627601271476/CloudFront/"
   }
 
   default_cache_behavior {
